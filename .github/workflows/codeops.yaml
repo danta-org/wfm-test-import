@@ -1,0 +1,5 @@
+name: Generate Dependencies CSV
+on: workflow_dispatch
+jobs:
+  call_workflow:
+    uses: danta-org/grc-11/.github/workflows/dependencies.yml@latest
