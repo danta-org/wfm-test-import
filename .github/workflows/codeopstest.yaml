@@ -1,0 +1,5 @@
+name: template yaml
+on: workflow_dispatch
+jobs:
+  test:
+    - uses: actions/checkout@v2
